@@ -16,8 +16,3 @@
 ## 验证
 
 零上下文 A/B 对照（同一素材、同模型）：带技能的代理收敛出 7 条带排序的候选（按 复发次数 × 可移植性 × 证据强度）+ Top3 标准候选包；无技能基线产出 40 条无法直接使用的平铺清单。素材为某项目 2007 行单日工作日志。
-
-## 相关
-
-- [daily-task-board-maintenance](https://github.com/CovD831/daily-task-board-maintenance) —— 有既定风格表格的维护 + 每日对账桥
-- 全部技能索引：[agent-skills](https://github.com/CovD831/agent-skills)
