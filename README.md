@@ -1,0 +1,23 @@
+# skill-mining
+
+从一个项目或一段时间的开发史里，提取可复用、可移植给他人的 skill（操作指南）。
+
+**只做提取层**：挖掘、判据、通用化、证据取舍；结构化入库（frontmatter 规范、目录布局、查重）交给任意现成的 skill creator。产出的候选包按通用指南格式起草——既是 skill creator 的输入，也是 creator 缺席时的成品草稿。
+
+## 什么时候用
+
+- 用户说「提取 skill / 提炼 skill / 沉淀方法论 / skill 盘点」。
+- 周期性盘点：项目新增的实践是否值得固化成指南。
+
+## 安装
+
+把 `SKILL.md` 拷进你的 agent 技能目录（如 `~/.claude/skills/skill-mining/`，或你所用平台的等价位置）。纯 prompt，零依赖，无脚本、无附属文件。
+
+## 验证
+
+零上下文 A/B 对照（同一素材、同模型）：带技能的代理收敛出 7 条带排序的候选（按 复发次数 × 可移植性 × 证据强度）+ Top3 标准候选包；无技能基线产出 40 条无法直接使用的平铺清单。素材为某项目 2007 行单日工作日志。
+
+## 相关
+
+- [daily-task-board-maintenance](https://github.com/CovD831/daily-task-board-maintenance) —— 有既定风格表格的维护 + 每日对账桥
+- 全部技能索引：[agent-skills](https://github.com/CovD831/agent-skills)
